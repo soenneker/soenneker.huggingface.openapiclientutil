@@ -45,9 +45,8 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="Soenneker.HuggingFace.HttpClients" Version="11.0.5" />
+        <PackageReference Include="Soenneker.HuggingFace.OpenApiClient" Version="11.0.17" />
         <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="4.0.56" />
-        <ProjectReference Include="..\..\..\soenneker.huggingface.httpclients\src\Soenneker.HuggingFace.HttpClients\Soenneker.HuggingFace.HttpClients.csproj" />
-        <ProjectReference Include="..\..\..\soenneker.huggingface.openapiclient\src\Soenneker.HuggingFace.OpenApiClient\Soenneker.HuggingFace.OpenApiClient.csproj" />
-        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.881" />
     </ItemGroup>
 </Project>
