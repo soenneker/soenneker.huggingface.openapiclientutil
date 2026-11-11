@@ -45,7 +45,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.HuggingFace.HttpClients" Version="11.0.10" />
+        <PackageReference Include="Soenneker.HuggingFace.HttpClients" Version="11.0.12" />
         <PackageReference Include="Soenneker.HuggingFace.OpenApiClient" Version="11.0.36" />
         <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="11.0.60" />
     </ItemGroup>
